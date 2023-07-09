@@ -4,6 +4,7 @@ export const Container = styled.div`
 
     background: #000;
     padding: 0 20px ;
+    overflow: hidden;
 
     h2 {
         color: #ffffff;
@@ -14,4 +15,4 @@ export const Container = styled.div`
     .swiper-wrapper {
         display: flex;
     } 
-`
+` 

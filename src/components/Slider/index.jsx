@@ -1,16 +1,17 @@
-import { Container } from '../../containers/Home/styles'
+import { Container } from './styles'
 import { Swiper, SwiperSlide } from 'swiper/react'
+
 
 import Card from '../Card'
 
 
 function Slider({ info, title }) {
 
-    console.log(info, title)
+    console.log(info, title) 
     return (
 
         <Container>
-            <h2>{title}</h2>
+            <h2>{ title }</h2>
             <Swiper
                 grabCursor
                 spaceBetween={10}
@@ -18,7 +19,7 @@ function Slider({ info, title }) {
                 className="swiper"
             >
                 {info.map((item, index) => (
-                    <SwiperSlide key={index}>
+                    <SwiperSlide key={index} >
                         <Card item={item} />
                     </SwiperSlide>
                 ))}

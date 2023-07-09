@@ -1,13 +1,11 @@
 import styled from 'styled-components'
-
-
-
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 5px;
+    overflow: hidden;
 
 img {
     border-radius: 30px;
