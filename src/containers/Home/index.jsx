@@ -51,8 +51,10 @@ function Home() {
                             <ContainerButtons>
                                 <Button red onClick={() => navigate(`/detalhe/${movie.id}`)}>Assista Agora</Button>
                                 <Button onClick={() => setShowModal(true)}>
+                                    
                                     Assista o Trailer
                                 </Button>
+                                console.log({setShowModal})
                             </ContainerButtons>
                         </Info>
                         <Poster>

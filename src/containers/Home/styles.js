@@ -62,7 +62,8 @@ export const Poster = styled.div`
     img {
         width: 400px;
         border-radius: 30px;
-        animation: ${scale} 0.5 linear;
+        animation: ${scale} 0.5s linear;
+        box-shadow: -1px 1px 20px #ffffff;
     }
 
 

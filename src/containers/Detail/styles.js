@@ -25,7 +25,6 @@ export const Background = styled.div`
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.5);
-
     }
 
     &::after {
@@ -35,7 +34,7 @@ export const Background = styled.div`
         left: 0;
         width: 100%;
         height: 150px;
-        background-image: linear-gradient(to top, #0f0f0f, rgba(0, 0, 0, 0));
+        background-image: linear-gradient(to top, #592066, rgba(0, 0, 0, 0));
     }
 `
 
@@ -58,9 +57,58 @@ export const Cover = styled.div`
     img {
         width: 450px;
         border-radius: 30px;
-        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
-        animation: ${scale} 0.5 linear;
+        box-shadow: -1px 1px 20px #ffffff;
+        animation: ${scale} 0.5s linear;
     }
     `
 
+    export const Info = styled.div`
+        padding: 20px;
+        width: 50%;
+        z-index: 99;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    
 
+    h2 {
+        font-size: 50px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    p {
+        font-weight: 700;
+        color: #fff;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    `
+
+    export const ContainerMovies = styled.div`
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+
+    div {
+        display:flex;
+        flex-direction: column;
+        max-width: 1000px;
+        width: 100%;
+        height: 100%;
+        margin: 20px 0;
+    }
+    h4 {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    iframe {
+        border: none;  
+    }
+    `
