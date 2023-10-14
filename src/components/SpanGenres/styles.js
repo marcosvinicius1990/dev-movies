@@ -13,7 +13,6 @@ export const Container = styled.div`
         border-radius: 30px;
         font-size: 12px;
         font-weight: 600;
-        background-color: #0b1e23;
         color: #ffffff;
         display: flex;
         align-items: center;

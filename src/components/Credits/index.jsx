@@ -2,6 +2,7 @@ import { getImages } from "../../utils/getImages"
 import { Title, Container } from "./styles"
 
 function Credits({ credits }) {
+    console.log(credits)
     
     return (
         <>

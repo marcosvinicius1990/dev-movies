@@ -3,7 +3,7 @@ import { Container, Background, Cover, Info, ContainerMovies } from './styles'
 import { getMovieById, getMovieCredits, getMovieSimilar, getMovieVideos } from '../../services/getData'
 import { useParams } from 'react-router-dom'
 import { getImages } from '../../utils/getImages'
-import SpanGenres from '../../components/SpanGenres'
+import  SpanGenres from '../../components/SpanGenres'
 import Credits from '../../components/Credits'
 import  Slider  from '../../components/Slider'
 
@@ -25,7 +25,7 @@ function Detail() {
                 getMovieSimilar(id)
             ])
                 .then(([movie, videos, credits, similar]) => {
-                    console.log({ movie, videos, credits, similar })
+                  { movie, videos, credits, similar }
                     setMovie(movie)
                     setMovieVideos(videos)
                     setMovieCredits(credits)

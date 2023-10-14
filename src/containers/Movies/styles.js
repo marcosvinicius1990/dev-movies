@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components'
+import { ButtonWhite } from '../../components/Button/styles'
 
 const scale = keyframes `
     from {
@@ -111,4 +112,5 @@ export const Cover = styled.div`
     iframe {
         border: none;  
     }
+
     `

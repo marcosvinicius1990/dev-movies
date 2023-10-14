@@ -2,20 +2,21 @@ import styled, { css } from 'styled-components'
 
 const buttonStyles = css`
 
-    border: 3px solid #ffffff;
-    background: transparent;
+    border: 2px solid #ffffff;
+    background: linear-gradient(red, darkblue);
     color: #ffffff;
     border-radius: 30px;
     padding: 10px 30px;
     cursor: pointer;
     font-size: 20px;
     font-weight: 500;
+    
 
     &:hover {
         background: #ffffff;
-        color: #ff0000;
+        color: #000044;
         box-shadow: 0px 0px 20px 5px #ff0000;
-        font-weight: 700;
+        font-weight: bold;
     }
 `
 

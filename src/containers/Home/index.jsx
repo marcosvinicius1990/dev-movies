@@ -54,7 +54,7 @@ function Home() {
                                     
                                     Assista o Trailer
                                 </Button>
-                                console.log({setShowModal})
+                                     {setShowModal}
                             </ContainerButtons>
                         </Info>
                         <Poster>
@@ -68,7 +68,9 @@ function Home() {
             )}
             {topMovies && <Slider info={topMovies} title={'Top Filmes'} />}
             {topSeries && <Slider info={topSeries} title={'Top Series'} />}
-            {popularSeries && <Slider info={popularSeries} title={'Séries Populares'} />}
+            {popularSeries && (
+                <Slider info={popularSeries} title={'Séries Populares'} />
+            )}
             {popular && <Slider info={popular} title={'Top Artistas'} />}
         </>
     )
