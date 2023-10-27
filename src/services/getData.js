@@ -32,12 +32,20 @@ export async function getPopularSeries(){
     return results
 }
 
-export async function getPopular(){
+export async function getTopPeople(){
     const {
         data: { results }
     } = await api.get('/person/popular')
 
     return results
+}
+
+export async function getMovie(movieId) {
+    const {
+        data: { results }
+    } = await api.get(`/movie/${movieId}/videos`)
+
+    return results[0]
 }
 
 export async function getMovieVideos(movieId) {

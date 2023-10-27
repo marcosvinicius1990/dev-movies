@@ -68,9 +68,9 @@ function Detail() {
                                 </div>
                             ))}
                     </ContainerMovies>
-                    {movieSimilar && (
+                    {movieSimilar && 
                         <Slider info={movieSimilar} title={'Filmes Similares'} />
-                    )}
+                    }
                 </>
             )}
         </>
