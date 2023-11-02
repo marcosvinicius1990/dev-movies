@@ -41,8 +41,8 @@ function Series() {
            
             
 
-            {topSeriesSeries && <Slider info={topSeriesSeries} title={'Top series'} />}
-            {topPopularSeriesSeries && <Slider info={topPopularSeriesSeries} title={'Series populares'} />}
+            {topSeriesSeries && <Slider info={topSeriesSeries} title={'Top Séries'} />}
+            {topPopularSeriesSeries && <Slider info={topPopularSeriesSeries} title={'Séries Populares'} />}
 
             </Container>
             
